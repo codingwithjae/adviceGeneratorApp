@@ -30,7 +30,7 @@ Users should be able to:
 
 
 <p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3J4cHhkcWxpaDVqbTEyenBuY3BkcGE2MmxnNWJqcXZreXVnNTY5YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/t6Lygjsea4TgzrKPmr/giphy.gif" alt="Gif"/>
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdzEzc25vMDM5aTl2aGFpNmQ0Z3M0cHNtNDd6Z25pZXo0NTU3bjZzYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ME4jDVhDmp15HkPeB4/giphy.gif" alt="Gif"/>
 </p>
 
 ### Links
