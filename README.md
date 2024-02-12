@@ -1,4 +1,4 @@
-## Welcome to my most recent portfolio repository from a Front End Mentor challenge! 👋
+## Welcome to the Advice Generator App repo! 👋
 
 This is a solution to the [Advice Generator App](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db).
 
