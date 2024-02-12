@@ -57,4 +57,4 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@jaegit123](https://www.frontendmentor.io/profile/jaegit123)
+- Frontend Mentor - [@jaegithub](https://github.com/jaedevgithub)
