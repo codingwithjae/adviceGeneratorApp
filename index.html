@@ -6,7 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" type="text/css" href="styles/styles.css" />
-    <script defer src="js/script.js"></script>
+    <script defer src="scripts/script.js"></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap"
       rel="stylesheet"
@@ -21,35 +21,47 @@
 
     <title>Frontend Mentor Challenge | Advice generator app</title>
   </head>
+
   <body>
-    <main class="advice">
+
+    <main class="advice" id="advice">
+
+      <div>
+        <h1 class="advice__generator_h1" id="advice__generator_h1"">
+          A d v i c e # 500
+          <!-- Advice ID goes here -->
+        </h1>
+      </div>
+
       <section class="advice__generator">
+      
         <div>
-          <h1 class="advice__generator_h1">
-            A d v i c e #
-            <!-- Advice ID goes here -->
-          </h1>
-        </div>
-        <div>
-          <p class="advice__generator_p">
+          <p class="advice__generator_p" id="advice__generator_p">
             “It is easy to sit up and take notice, what's difficult is getting
             up and taking action.”
           </p>
+
           <div class="advice__generator_separator_mobile">
             <img src="images/pattern-divider-mobile.svg" alt="" />
           </div>
+
           <div class="advice__generator_separator_desktop">
             <img src="images/pattern-divider-desktop.svg" alt="" />
           </div>
-          <div class="advice__generator_bottom">
-            <img src="images/icon-dice.svg" alt="" />
-          </div>
         </div>
+
       </section>
+     
+      <div class="advice__generator_button" id="advice__generator_button">
+        <img src="images/icon-dice.svg" alt="Button to get advices" />
+      </div>
+
     </main>
 
     <div class="attribution">
       <p>Coded by: <a href="https://codingwithjae.dev/">Johander Campos.</a></p>
     </div>
+
   </body>
+
 </html>

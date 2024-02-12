@@ -58,20 +58,19 @@ a {
 }
 
 .advice {
-  box-shadow: inset;
   text-align: center;
   align-items: center;
-  display: flex;
+  flex-direction: column;
 }
 
 .advice__generator {
   width: 21.4375rem;
-  height: 21.6875rem;
+  min-height: 21.6875rem;
   background-color: var(--DarkGrayishBlue);
   border-radius: 0.9375rem;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   gap: 1.5rem;
   box-shadow: 0.125rem 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
 }
@@ -80,8 +79,7 @@ a {
   font-size: var(--SmallFontSize);
   color: var(--NeonGreen);
   position: relative;
-  margin-top: 3rem;
-  text-shadow: 0cm;
+  top: 3.2rem;
   text-transform: uppercase;
   text-shadow: 0.09375rem 0.09375rem 0.03125rem rgba(0, 0, 0, 0.2);
 }
@@ -89,7 +87,6 @@ a {
 .advice__generator_p {
   font-size: var(--BigFontSize);
   color: var(--LightCyan);
-  position: relative;
   margin-top: 0.5rem;
 }
 
@@ -101,20 +98,20 @@ a {
   margin-top: 2rem;
 }
 
-.advice__generator_bottom {
+.advice__generator_button {
   width: 4rem;
   height: 4rem;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  top: 0.8rem;
+  top: -2.5rem;
   border-radius: 100%;
   background-color: var(--NeonGreen);
   margin: auto;
 }
 
-.advice__generator_bottom:hover {
+.advice__generator_button:hover {
   box-shadow: 0 0 0.3125rem 0.0625rem var(--NeonGreen);
 }
 
@@ -135,9 +132,8 @@ a {
 
   .advice__generator_p {
     font-size: var(--BigFontSize);
-    margin-left: 2.8125rem;
-    margin-right: 2.8125rem;
-    margin-top: 1.5rem;
+    margin-left: 3.6125rem;
+    margin-right: 3.6125rem;
   }
 
   .advice__generator_separator_mobile {
@@ -147,9 +143,5 @@ a {
   .advice__generator_separator_desktop {
     margin-top: 2.6rem;
     display: block;
-  }
-
-  .advice__generator_bottom {
-    top: 2.5rem;
   }
 }
